@@ -1,5 +1,6 @@
 # Mapping Inequality in the Digital Age
 Emily Siangkam
+
 GEOG 458
 
 ![Image of map on Mapping Inequality site](img/map.png)
@@ -54,13 +55,18 @@ Surprisingly enough, the map does support responsive design - even as a user nav
 #### *Cons*
 - The initial idea behind the project is not apparent right away. Although the legend is in such a huge size when the map first loads, it takes some clicking through the map to really understand what is happening.
 - Some of the buttons do not have tooltips/mouseover text that would indicate to the user what they do. Obviously, the "X" and minimize tool may be commonly understood, but the "Zoom to" button is not as clear. Upon further use, the user can figure out that clicking on this button on the pop-up would zoom to the appropriate area on the map.
+
 ![Zoom button](img/zoomtool.png)
 *Screenshot of pop-up for Los Angeles, circling the zoom button*
+
 - The cities overlap in some places, especially if there are a large number of cities in one area. When this occurs, it becomes especially difficult to identify smaller cities that may be hiding underneath big ones, or to pick out the names of these places. The "arms" on the markers connecting them to places help a bit, but it can be confusing, since many markers are not located where they actually are on the map.
+
 ![Screenshot of Boston area](img/boston.png)
 *Zoom out of Boston area*
+
 ![Zoom to Boston area](img/bostonzoom.png)
 *Zoom in of Boston area*
+
 - The map is so simple that it is somewhat dull. The font of the title seems to follow and "old-fashioned" theme reminiscent of the 1700s, as though it were written for the Declaration of Independence. Although the map colors closely relate to those used on those on the scanned commercial maps, bright and more appealing could have been used. Unless the point was to look like an old site, the page itself could use further design work. Nonetheless, it works for its purpose.
 
 ## Relevance to Digital Geographies
