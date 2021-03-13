@@ -30,6 +30,7 @@ The functionality of this dashboard was evaluated through the Google Chrome web 
 By using Leaflet, the authors could add their major function of pop-ups through the Ajax plugin. This allows them to load a GeoJSON file and improve interactivity through the pop-ups that tell this map's story. There are also CSS stylesheets from [Google APIs](https://developers.google.com/apis-explorer) and [Adobe Typekit](https://fonts.adobe.com/home), which both allow for use of varied fonts, such as Merriweather, Lato, and PT Sans, throughout the project. The [spatial data](https://dsl.richmond.edu/panorama/redlining/#loc=5/45.011/-112.764&text=downloads) from this project was developed by the authors themselves, based on the scans from National Archives.
 
 ![Screenshot of Sources on DevTools](img/source.png)
+
 *Sources, as indicated by Google Chrome DevTools*
 
 The webmap consists of tiles that only load when the user zooms in or out of the map, therefore saving time loading content on the page. The tiles are thus hosted on Amazon Simple Storage Service (S3) as offered by Amazon Web Service. When a user chooses to look at a certain part of the map, the folder for these tiles will appear in the source code. Although I attempted to do some digging, I could not figure out the file server directly. I assume that when a client requests data from a certain part of the map, the tiles hosted by S3 are sent to Apache and loaded on the client.
@@ -44,6 +45,7 @@ The interactive features in the top right corner provide the user with a multitu
 Surprisingly enough, the map does support responsive design - even as a user navigates to the page via a mobile device, such as an iPhone, iPad, or Galaxy, the page offers the same functionality on a smaller scale. One important note, however, is that the legend does not automatically pop up while on mobile. Below is an example of the page on an iPhone X, where the user likely would not immediately understand the purpose of the site.
 
 ![iPhone X perspective](img/iphone.png)
+
 *Screenshot of Mapping Inequality on an iPhone X*
 
 ## Pros and Cons
@@ -57,14 +59,17 @@ Surprisingly enough, the map does support responsive design - even as a user nav
 - Some of the buttons do not have tooltips/mouseover text that would indicate to the user what they do. Obviously, the "X" and minimize tool may be commonly understood, but the "Zoom to" button is not as clear. Upon further use, the user can figure out that clicking on this button on the pop-up would zoom to the appropriate area on the map.
 
 ![Zoom button](img/zoomtool.png)
+
 *Screenshot of pop-up for Los Angeles, circling the zoom button*
 
 - The cities overlap in some places, especially if there are a large number of cities in one area. When this occurs, it becomes especially difficult to identify smaller cities that may be hiding underneath big ones, or to pick out the names of these places. The "arms" on the markers connecting them to places help a bit, but it can be confusing, since many markers are not located where they actually are on the map.
 
 ![Screenshot of Boston area](img/boston.png)
+
 *Zoom out of Boston area*
 
 ![Zoom to Boston area](img/bostonzoom.png)
+
 *Zoom in of Boston area*
 
 - The map is so simple that it is somewhat dull. The font of the title seems to follow and "old-fashioned" theme reminiscent of the 1700s, as though it were written for the Declaration of Independence. Although the map colors closely relate to those used on those on the scanned commercial maps, bright and more appealing could have been used. Unless the point was to look like an old site, the page itself could use further design work. Nonetheless, it works for its purpose.
